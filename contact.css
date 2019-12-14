@@ -1,0 +1,233 @@
+*{ transition: all .7s ease-in-out}
+* {box-sizing:border-box}
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+body {
+    font-family: asap, sans-serif;
+    background-color: lavender;
+}
+
+.containernavbar{
+  clear:both;
+  overflow: hidden;
+  background-color: #6E97A4;
+  position: fixed;
+  top: 0;
+  width: 100%;  
+}
+
+a:link {
+  text-decoration: none;
+  color: #E4F2FF;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+  background-color: grey;
+    padding: 8px;
+}
+
+a:active {
+  text-decoration: underline;
+  color: white;
+}
+    
+#menu {
+    margin: 0.5% 5%;
+    font-family: asap,sans-serif;
+    font-size: 26px;
+}
+
+#homeknop{
+    margin-left: clear;
+}
+
+nav{
+    text-align: center;
+ 
+}
+
+.logo img{
+    float:left;
+    width: 15%;
+    padding: 1%;
+    margin: 0.5%;
+    margin-left: 2%;
+}
+
+ul li{
+  display: inline-block; 
+  font-size: 80%; 
+    font-family: asap, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    text-decoration: none;
+    margin: 1%;
+    color: white;
+    margin-right: 6%;
+}
+
+
+.active {
+    background-color:grey;
+    text-decoration: underline;
+    padding:8px;
+}
+
+.contactstuk1{
+ margin-left: 3%;
+    margin-right: 0%;
+    margin-bottom: 15%;
+    margin-top: %;
+    font-size: 19px;
+    text-align: center;
+    width: 40%;
+    float: left;
+    padding: 3%;
+}
+    
+.contactstuk2{
+    margin-bottom: 7%;
+    margin-top: 2%;
+    text-align: center;
+    width: 45%;
+    float: right;
+    padding: 2%;
+}
+
+
+.contacttabel{
+    float: left;
+    width: %;
+    font-size: 17px;
+    margin-left: 28%; 
+    margin-right: 0%;
+    margin-bottom: 0%;
+    margin-top: 1%;  
+}
+
+.tijdtabel{
+    float: right;
+    width: 45%;
+    font-size: 17px;
+    
+}
+
+#maps{
+    float: right;
+    margin-right: 5%;
+    
+}
+
+#contacth2{
+    margin: 5%;
+    text-align: center;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: asap, sans-serif;
+    padding-right: 14%;
+}
+
+#mapsplaatje{
+    float: right;
+    margin-right: 5%;
+    margin-top: 15%;
+    width: 30;
+}
+#contacth22{
+   margin-top: 25%;
+   margin-bottom: 1%;
+   color: white;
+   background-color: grey;
+    padding-bottom: 4%;
+    padding-right: 5%;5
+    font-family: "Varela Round", sans-serif;
+    font-style: bold;
+    border-color:  black;
+    font-weight: 700;
+  
+}
+
+#contacth23{
+   margin-top: 35%; 
+   margin-left: 0%;  
+   margin-bottom: 15%;
+   margin-right: 20%;
+   background-color: ;
+    padding: 2%;
+    font-family: "Varela Round", sans-serif;
+    font-style: bold;
+    border-color:  black;
+    font-weight: 700;
+}
+
+.gegevens{
+   margin-top: 30%;
+   padding: 2%;
+   padding-left: 40%;    
+   background-color:   #6E97A4;
+   font-family: "Varela Round", sans-serif;
+    font-style: bold;
+    border-color:  black;
+    font-weight: 700;
+     
+}
+
+#mobiel{
+    text-align: center;
+}
+
+#mail{
+    text-align: center;
+}
+
+#kantoor{
+    text-align: center;
+}
+
+#contact{
+    width: 25%;
+    margin-top: 5%;
+    margin-left: 20%;
+    float: left;
+
+}
+
+#klachten{
+    width: 25%;
+    margin-top: 5%;
+    margin-right: 20%;
+    float: right
+    }
+
+#copy{
+    margin-top: 20%;
+    margin-left: 35%;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,370 @@
+*{ transition: all .7s ease-in-out}
+* {box-sizing:border-box}
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+body {
+    font-family: asap, sans-serif;
+    
+}
+
+.containernavbar{
+  clear:both;
+  overflow: hidden;
+  background-color: #6E97A4;
+  position: fixed;
+  top: 0;
+  width: 100%;  
+}
+
+a:link {
+  text-decoration: none;
+  color: #E4F2FF;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+  background-color: grey;
+    padding: 8px;
+}
+
+a:active {
+  text-decoration: underline;
+  color: white;
+}
+    
+#menu {
+    margin: 0.5% 5%;
+    font-family: asap,sans-serif;
+    font-size: 26px;
+}
+
+#homeknop{
+    margin-left: clear;
+}
+
+nav{
+    text-align: center;
+ 
+}
+
+.logo img{
+    float:left;
+    width: 15%;
+    padding: 1%;
+    margin: 0.5%;
+    margin-left: 2%;
+}
+
+ul li{
+  display: inline-block; 
+  font-size: 80%; 
+    font-family: asap, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    text-decoration: none;
+    margin: 1%;
+    color: white;
+    margin-right: 6%;
+}
+
+
+.active {
+    background-color:grey;
+    text-decoration: underline;
+    padding:8px;
+}
+
+
+.productenh1{
+ border-top: 3px solid;
+    border-bottom: 3px solid;
+    border-color: grey;
+    padding: 0 0 0 0;
+    font-size: 26px; 
+    font-family: asap, sans-serif;
+    font-weight: 20;
+    font-style: oblique;
+    line-height:18px;
+    color: white;
+    text-align: center;
+    height: 100%;
+    
+}
+
+#containertitel{
+    background-color: #666666;
+    font-weight: 20;
+    height: 20%;
+        /*#46474A;*/
+    
+}
+
+.title {
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    border-color: grey;
+    padding: 0 0 0 0;
+    font-size: 20px; 
+    font-family: asap, sans-serif;
+    font-weight: 0;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    height: 20%;
+    /*#86BDB4*/
+}
+
+.stuk1{
+   margin-left: 55%;
+   margin: 5%;
+   width: 40%;
+   float: left;
+   text-align: center; 
+    
+}
+
+.stuk2{
+    width: 40%;
+    margin-left: 200px;
+    margin: 5%;
+    float: right;
+    text-align: center;
+}
+.infotabelintro{
+    height: 50px;
+    align-content: center;
+    box-sizing: border-box;
+}
+
+.tabelstukintro1{
+    width:40%;
+    padding: 20px;
+    padding-left: 100px;
+    text-align: center;
+}
+
+.tabelstukintro2{
+    width: 40%;
+   padding: 20px;
+    padding-left: 100px;
+    text-align: center;
+   
+    
+}
+.infotabel1{
+    margin-top: 80px;
+    height: 300px;
+}
+.tabelstuk1{
+    height: 390px;
+    width: 58%;
+    padding: 0.5% 2%;
+    background-color: #6E97A4;
+    float:left;
+    margin-left: 5%;
+    margin-right: 20px;
+}
+
+.tabelstuk2{
+    height: 350px;
+    width: 35%;
+    float: right;
+    margin-top: 2%;
+
+}
+
+.infotabel2{
+    margin-top: 80px;
+    height: 350px;
+}
+.containertbstuk3{
+    height: 300px;
+    width: 25%;
+    float:left;
+    margin-top: 2%;
+    margin-right: 0%;
+}
+.tabelstuk3{
+    height: 350px;
+    width: 100%;
+    float:left;
+    margin-left: 10%;
+    margin-right: 20px;
+}
+
+.tabelstuk4{
+    height: 360px;
+    width: 68%;
+    background-color: #6E97A4;
+    float: right;
+    padding:0.5% 2%;
+    margin-left: 20px;
+}
+
+
+.infotabel3{
+    margin-top: 80px;
+    height: 450px;
+    
+}
+
+.containertbstuk5{
+    height: 480px;
+}
+.tabelstuk5{
+    height: 580px;
+    width: 53%;
+    background-color: #6E97A4;
+    margin-left: 80px;
+    margin-right: 20px;
+     padding: 0.5% 4%;
+    float:left;
+}
+
+.tabelstuk6{
+     height: 10px;
+    width: 30%;
+    float:right;
+    margin-top: 5%
+   
+}
+
+.tabelstuk7{
+    height: 300px;
+    width: 30%;
+    float:left;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.tabelstuk8{
+    background-color: #6E97A4;
+    height: 300px;
+    width: 64.5%;
+    padding: 2%;
+    float: right;
+    margin-right: 0px;
+    margin-top: 10%;
+
+}
+
+.infotabel5{
+    height:320px;
+    margin: 80px 80px;
+}
+
+.tabelstuk9{
+    height:320px;
+    float: left;
+    background-color: #6E97A4;
+    padding: 2%;
+    width:65%;
+    margin-left: 0;
+}
+
+.tabelstuk10{
+    float: right;
+    width: 28%;
+    height: 320px;
+    margin-right: 4%;
+}
+
+.tabelstuk12{
+   background-color: gray;
+    padding: 2%;
+    margin-left: 15%;
+    margin-bottom: 20%;
+    width: 300px;
+    font-family: monospace;
+    color: white;
+    font-weight: 700;
+}
+
+.containertbstuk7{
+    height: 300px;
+    margin: 5%;
+    background-color: #6E97A4;
+    padding: 3%;
+    float: right;
+}
+
+
+
+#kast{
+    height: 100%;
+    width: 100%;
+}
+
+#plaatjebed{
+    float: right;
+    width: 100%;
+    height: 100%;
+}
+
+#tafel{
+    float: right;
+    height: 480px;
+    width:100%;
+}
+
+#stoel{
+    width: auto;
+    height: 300px;
+    }
+
+#interieur{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+
+.tekstfooter{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: aliceblue;
+  text-align: center;
+    background-color: #6E97A4;
+}
+
+table  {
+    box-sizing: border-box;
+    font-size: 18px;
+    border-collapse: collapse;
+    width: 95%;
+    margin-left: 0;
+}
+
+tr {
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

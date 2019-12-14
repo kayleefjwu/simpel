@@ -1,0 +1,75 @@
+*{ transition: all .7s ease-in-out}
+* {box-sizing:border-box}
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+body {
+    background-color: lavender;
+    font-family: 'Dosis', sans-serif;
+}
+.containernavbar{
+  clear:both;
+  overflow: hidden;
+  background-color: #6E97A4;
+  position: fixed;
+  top: 0;
+  width: 100%;  
+}
+
+a:link {
+  text-decoration: none;
+  color: #E4F2FF;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+  background-color: grey;
+    padding: 5px;
+}
+
+a:active {
+  text-decoration: underline;
+  color: white;
+}
+    
+#menu {
+    margin: 0.5% 5%;
+    font-family: asap,sans-serif;
+    font-size: 26px;
+}
+
+#homeknop{
+    margin-left: clear;
+}
+
+nav{
+    text-align: center;
+ 
+}
+
+.logo img{
+    float:left;
+    width: 15%;
+    padding: 1%;
+    margin: 0.5%;
+    margin-left: 2%;
+}
+
+ul li{
+  display: inline-block; 
+  font-size: 80%; 
+    font-family: asap, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    text-decoration: none;
+    margin: 1%;
+    color: white;
+    margin-right: 6%;
+}
+
+
