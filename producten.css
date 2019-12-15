@@ -3,8 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 
 body {
-    background-color: lavender;
-    font-family: 'Dosis', sans-serif;
+    font-family: asap, sans-serif;
 }
 .containernavbar{
   clear:both;
@@ -15,24 +14,25 @@ body {
   width: 100%;  
 }
 
-a:link {
+.a:link {
   text-decoration: none;
   color: #E4F2FF;
 }
 
-a:visited {
+.a:visited {
   text-decoration: none;
   color: white;
 }
 
-a:hover {
+.a:hover {
   text-decoration: underline;
   color: white;
   background-color: grey;
-    padding: 5px;
+    padding: 8px;
+    z-index: 99;
 }
 
-a:active {
+.a:active {
   text-decoration: underline;
   color: white;
 }
@@ -55,7 +55,7 @@ nav{
 .logo img{
     float:left;
     width: 15%;
-    padding: 1%;
+    padding: 0.5%;
     margin: 0.5%;
     margin-left: 2%;
 }
@@ -72,4 +72,66 @@ ul li{
     margin-right: 6%;
 }
 
+.active {
+    background-color:grey;
+    text-decoration: underline;
+    padding:8px;
+}
 
+.tableheadempty{
+    color: white;
+}
+
+.tablehead{
+    text-align: center;
+}
+
+.productentabel{
+    margin-top: 200px;
+    margin-left: 320px;
+    margin-right: 320px;
+}
+
+#productimg{
+    width: 300px;
+    margin: 20px;
+}
+
+.naambankzwart, .naambankwit, .naamproduct{
+    padding-left:20px;
+}
+
+.productentabel2{
+    margin: 80px 320px;
+}
+
+.beschrijving{
+    color: #333333;
+    opacity: 0.5;
+    padding-right: 2px;
+    
+}
+
+.prijs{
+    padding-left: 5px;
+}
+
+.kopen{
+    background-color:#6E97A4;
+}
+
+.kopen:active{
+    text-decoration: none;
+}
+
+.kopen:checked{
+    text-decoration: none;
+}
+
+.kopen:hover{
+    text-decoration: none;
+}
+
+.kopen:visited{
+    text-decoration: none;
+}
